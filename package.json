@@ -1,4 +1,15 @@
 {
+  "name": "tech-news",
+  "version": "1.0.0",
+  "description": "subindo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "next": "^14.1.0",
     "react": "^18.2.0",
