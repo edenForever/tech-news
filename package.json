@@ -4,8 +4,9 @@
   "description": "subindo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm next dev"
+    "dev": "npm next dev",
+    "lindo": "prettier --check .",
+    "fix": "prettier --write ."
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
     "next": "^14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4"
   }
 }
