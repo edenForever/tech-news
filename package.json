@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "npm next dev",
     "lindo": "prettier --check .",
-    "fix": "prettier --write ."
+    "fix": "prettier --write .",
+    "test": "jest",
+    "watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
