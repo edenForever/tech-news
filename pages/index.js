@@ -1,5 +1,7 @@
+import Home from "../view/home";
+
 function Home() {
-  return <h1>mudando commit</h1>;
+  return Home;
 }
 
 export default Home;
