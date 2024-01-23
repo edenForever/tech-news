@@ -1,7 +1,7 @@
-import Home from "../view/home";
+import Casa from "../view/casa";
 
 function Home() {
-  return <Home />;
+  return <Casa />;
 }
 
 export default Home;
