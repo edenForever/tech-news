@@ -1,5 +1,5 @@
 function Home() {
-  return <h1>commit 1 online </h1>;
+  return <h1>mudando commit</h1>;
 }
 
 export default Home;
