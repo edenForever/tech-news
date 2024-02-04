@@ -4,7 +4,7 @@
   "description": "subindo",
   "main": "index.js",
   "scripts": {
-    "dev": "npm next dev",
+    "dev": " next dev",
     "lindo": "prettier --check .",
     "fix": "prettier --write .",
     "test": "jest",
@@ -14,12 +14,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^29.7.0",
     "next": "^14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "prettier": "^3.2.4"
+    "jest": "^29.7.0",
+    "prettier": "^3.2.4",
+    "vitest": "^1.2.1"
   }
 }
