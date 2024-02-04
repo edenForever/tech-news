@@ -2,4 +2,6 @@ services:
   database:
     image: "postgres:16.1-alpine3.19"
     environment:
-      POSTGRES_PASSWORD: "tester"
+      POSTGRES_PASSWORD: "1234"
+    ports:
+      - "5432:5432"
