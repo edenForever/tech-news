@@ -1,7 +1,3 @@
-import Casa from "../view/casa";
-
-function Home() {
-  return <Casa />;
+export default function index() {
+  return "oi";
 }
-
-export default Home;

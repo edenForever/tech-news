@@ -8,13 +8,14 @@
     "lindo": "prettier --check .",
     "fix": "prettier --write .",
     "test": "jest",
-    "watch": "jest --watch"
+    "watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "next": "^14.1.0",
+    "pg": "^8.11.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
